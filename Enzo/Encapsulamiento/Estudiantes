@@ -1,0 +1,34 @@
+"""Realizar un programa que conste de una clase llamada Estudiante, que tenga como atributos el nombre y la nota del alumno.
+Definir los métodos para inicializar sus atributos, imprimirlos y mostrar un mensaje con el resultado de la nota y si ha aprobado"""
+
+class Estudiante:
+    
+    def __init__(self,Name = "",nota = 0):
+        self.__Name = Name
+        self.__nota = nota
+        
+    def get_Name(self):
+        return self.__Name
+    def get_nota(self):
+        return self.__nota
+    def Imprimir(self):
+        return print("El estudiante",self.__Name,"tiene una nota de:",self.__nota)    
+def  main():
+    
+    print("Ingrese el nombre del estudiante:")
+    Name = input()
+    print("Ingrese la nota del estudiante:")
+    nota = float(input())
+    
+    Estudiante1 = Estudiante(Name,nota)
+    
+    Estudiante1.Imprimir()
+    
+    if Estudiante1.get_nota() >= 4:
+        print("El estudiante",Estudiante1.get_Name(),"ha aprobado con una nota de:",Estudiante1.get_nota())
+    elif Estudiante1.get_nota() < 4:
+        print("El estudiante",Estudiante1.get_Name(),"ha desaprobado con una nota de:",Estudiante1.get_nota())
+     
+if __name__ == "__main__":
+    main()            
+    
