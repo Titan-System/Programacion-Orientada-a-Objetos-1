@@ -1,0 +1,27 @@
+class Persona:
+    def __init__(self, nombre, edad):
+        self._nombre = nombre
+        self._edad = edad
+
+
+    def get_edad(self):
+       return self._edad
+
+    
+    def set_edad(self, edad):
+        self._edad = edad
+
+    def cumpleaños(self):
+        self._edad += 1
+   
+
+def main():
+    persona1 = Persona("Matias", 29)
+    print(persona1.get_edad())
+    persona1.cumpleaños()
+    print(persona1.get_edad())
+
+
+
+if __name__ == "__main__":
+    main()
