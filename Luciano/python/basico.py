@@ -73,39 +73,99 @@
 
 #Jugueteria 
 
-munieca=0
-autos=0
-pM=0
-pA=0
+# munieca=0
+# autos=0
+# pM=0
+# pA=0
 
-while True:
-    print("\nMenu")
-    print("1. Muniecas")
-    print("2. Autos")
-    print("3. salir")
+# while True:
+#     print("\nMenu")
+#     print("1. Muniecas")
+#     print("2. Autos")
+#     print("3. salir")
 
-    op=int(input("Ingrese su accion: "))
+#     op=int(input("Ingrese su accion: "))
 
-    if op == 1:
-        munieca+=1
-        pM+=75
+#     if op == 1:
+#         munieca+=1
+#         pM+=75
         
-    elif op == 2:
-        autos+=1
-        pA+=112
-    elif op ==3:
+#     elif op == 2:
+#         autos+=1
+#         pA+=112
+#     elif op ==3:
 
-        print("saliendo del programa..")
-        break
-    else:
-        print("opcion invalida, intenta de nuevo. ")
-
-
-print("La cantidad de muniecas total es: ",munieca)
-print("El peso total de las muniecas acumulda es: ",pM)
-
-print("La cantidad total de autos es: ",autos)
-print("El peso total de los autos acumulda es: ",pA)
+#         print("saliendo del programa..")
+#         break
+#     else:
+#         print("opcion invalida, intenta de nuevo. ")
 
 
-print("El peso acumulado total es: ",pM+pA)
+# print("La cantidad de muniecas total es: ",munieca)
+# print("El peso total de las muniecas acumulda es: ",pM)
+
+# print("La cantidad total de autos es: ",autos)
+# print("El peso total de los autos acumulda es: ",pA)
+
+
+# print("El peso acumulado total es: ",pM+pA)
+
+#Caja de Ahorros
+
+# Usd=float(input("Ingrese datos Cantidad a ingresar: "))
+# tasa=0.04
+# Anios=1
+# ahorros=Usd*(1+tasa)**Anios
+
+# print("Ahorros a un anio: ",ahorros)
+
+# Anios=2
+
+# ahorros=Usd*(1+tasa)**Anios
+
+# print("Ahorros a un dos: ",ahorros)
+
+# Anios=3
+
+# ahorros=Usd*(1+tasa)**Anios
+
+# print("Ahorros a un tres: ",ahorros)
+
+#Panderia 
+
+# Pan_hoy=2000
+# pan_viejo=0.6
+
+# bolsa=int(input("Bienvenido Ingrese su pedido:"))
+
+# descuento= Pan_hoy* pan_viejo
+
+# total_pan_Hoy= Pan_hoy-descuento
+
+# total= total_pan_Hoy*bolsa
+
+
+# print(Pan_hoy)
+# print(descuento)
+# print(total_pan_Hoy)
+# print(total)
+
+#Separar fechas
+
+# Verctor_flechas=[0]*8
+
+
+# Fechas=int(input("Ingrese Fecha: "))
+
+
+
+# dia= Fechas%100   si dividis por 100 sacas los ultimos dos digitos
+# mes= (Fechas//100)%100
+# anio=Fechas // 10000
+
+
+# print(dia)
+# print(mes)
+# print(anio)
+
+
