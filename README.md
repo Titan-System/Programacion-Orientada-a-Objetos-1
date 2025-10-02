@@ -29,6 +29,9 @@ POO – Preguntas Generales
 
     Una instancia concreta de una clase que posee identidad (se distingue de otros objetos), estado (valores actuales de sus atributos) y comportamiento (métodos). Los objetos interactúan enviándose mensajes                   (invocaciones de métodos).
     
+<img width="1023" height="643" alt="image" src="https://github.com/user-attachments/assets/5eada6d8-1a5d-48c5-89ff-cc924fc7dab5" />
+
+
 ¿Cuáles son las similitudes y diferencias entre composición y agregación? Da ejemplos.
 
     Similitud: ambas son relaciones parte–todo (asociaciones estructurales).
