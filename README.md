@@ -185,6 +185,7 @@ Polimorfismo
     unittest es el módulo de pruebas unitarias de Python, usado para verificar el correcto funcionamiento de partes específicas del código             (funciones, clases, métodos).
 
 ¿Receta?
+
 <img width="349" height="276" alt="image" src="https://github.com/user-attachments/assets/1c7a5213-68c9-496e-a9c5-2f327947dea4" />
 
 Diferencia entre sobreescritura parcial y total (con ejemplos)
