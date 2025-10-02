@@ -179,9 +179,39 @@ Polimorfismo
     Python no la soporta de forma nativa: se simula con parámetros opcionales, *args/**kwargs o
     functools.singledispatch. Sobrescritura: una subclase redefine un método de la superclase manteniendo
     el contrato; puede invocar super() para extender.
-¿Qué es el late binding?
 
-    Es el enlace tardío (o despacho dinámico) de una llamada a método: la selección del método concreto se resuelve en tiempo de ejecución según el tipo dinámico del objeto receptor.
+¿Qué es unittest? 
+
+    unittest es el módulo de pruebas unitarias de Python, usado para verificar el correcto funcionamiento de partes específicas del código             (funciones, clases, métodos).
+
+¿Receta?
+<img width="349" height="276" alt="image" src="https://github.com/user-attachments/assets/1c7a5213-68c9-496e-a9c5-2f327947dea4" />
+
+Diferencia entre sobreescritura parcial y total (con ejemplos)
+
+    Sobreescritura total: la subclase reemplaza completamente el método heredado.
+    
+    Sobreescritura parcial: la subclase modifica el método pero reutiliza parte del original (usando super()).
+
+<img width="332" height="303" alt="image" src="https://github.com/user-attachments/assets/8212fa66-a843-4d38-88c3-e650dbd91040" />
+
+¿Qué es una clase abstracta?
+
+    Una clase abstracta es una clase especial que sirve como modelo o plantilla base para otras clases. Se define para establecer una interfaz         común, pero no está pensada para ser utilizada directamente (es decir, no se puede instanciar por sí sola).
+    
+    Su propósito es forzar a las subclases a implementar ciertos métodos, asegurando que todas las clases derivadas compartan una estructura           mínima.
+
+Cual es la diferencia entre clase abstracta y clase común?
+
+    Clase Abstracta	                                Clase Común
+                                                    
+    No se puede instanciar	                        Se puede instanciar
+    Contiene métodos abstractos	                    Todos los métodos están definidos
+    Se usa como plantilla para herencia	            Puede ser usada directamente
+    
+¿Qué es el late binding?    
+
+    Es el enlace tardío (o despacho dinámico) de una llamada a método: la selección del método concreto se resuelve en tiempo de ejecución según       el tipo dinámico del objeto receptor.
     
     Para qué sirve: habilita polimorfismo real (mismo mensaje, respuestas distintas).
     
