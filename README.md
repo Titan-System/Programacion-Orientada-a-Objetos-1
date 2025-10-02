@@ -2,6 +2,21 @@
 
 POO – Preguntas Generales
 
+¿Cómo se define un programa dentro de POO? Describir sus elementos generales.
+
+    Un programa OO es un conjunto de clases que, en ejecución, producen una población de objetos que colaboran enviándose mensajes. Elementos típicos:
+    
+    Clases/Interfaces (o protocolos) con atributos y métodos.
+    
+    Relaciones: asociaciones, dependencias, herencia, composición/agregación.
+    
+    Mensajes entre objetos (invocaciones) que modifican estado y disparan comportamientos.
+    
+    Módulos/paquetes que agrupan clases; invariantes y contratos que gobiernan su uso.
+    
+    Punto de entrada (p. ej., main o script) que construye el grafo inicial de objetos y orquesta el flujo.
+    En Python: módulos/paquetes, clases, instancias, y un script ejecutable que inicia las interacciones.
+
 ¿Qué es la Programación Orientada a Objetos (POO)?
 
     Un paradigma que modela el software como objetos con estado (atributos) y comportamiento (métodos)
@@ -10,6 +25,43 @@ POO – Preguntas Generales
 
     Un molde/plantilla que define atributos y métodos. Instanciar la clase crea objetos que comparten esa
     definición.
+¿Qué es un objeto?
+
+    Una instancia concreta de una clase que posee identidad (se distingue de otros objetos), estado (valores actuales de sus atributos) y comportamiento (métodos). Los objetos interactúan enviándose mensajes                   (invocaciones de métodos).
+    
+¿Cuáles son las similitudes y diferencias entre composición y agregación? Da ejemplos.
+
+    Similitud: ambas son relaciones parte–todo (asociaciones estructurales).
+    
+    Diferencias clave:
+    
+    Propiedad del ciclo de vida:
+    
+    Composición: el todo es dueño de las partes. Si el todo se destruye, las partes también. Fuerte.
+    
+    Agregación: el todo no es dueño de las partes; las partes pueden vivir por sí mismas. Débil.
+    
+    Notación UML:
+    
+    Composición: rombo relleno en el lado del todo.
+    
+    Agregación: rombo hueco en el lado del todo.
+    
+    Ejemplos:
+    
+    Composición: Pedido–LíneaDePedido; Casa–Habitación; Auto–Motor.
+    
+    Agregación: Equipo–Jugador; Curso–Estudiante; Biblioteca–Libro (el libro puede existir sin esa biblioteca).
+    
+    Implementación práctica: en composición el todo crea/gestiona las partes y no las comparte ampliamente; en agregación las partes pueden compartirse o existir independientemente.
+
+¿Cuál es la diferencia entre mensaje y método?
+
+    Mensaje: la solicitud que un objeto A le envía a un objeto B para que ejecute una operación (nombre + argumentos). Ej.: b.dibujar(x, y).
+    
+    Método: la implementación concreta en la clase de B que responde a ese mensaje.
+    Al enviar un mensaje, el sistema selecciona el método a ejecutar (despacho) según el tipo dinámico del receptor → base del polimorfismo.
+
 ¿Un objeto es una entidad estática o dinámica?
 
     Dinámica: su estado puede cambiar en tiempo de ejecución a través de sus métodos.
@@ -114,3 +166,10 @@ Polimorfismo
     Python no la soporta de forma nativa: se simula con parámetros opcionales, *args/**kwargs o
     functools.singledispatch. Sobrescritura: una subclase redefine un método de la superclase manteniendo
     el contrato; puede invocar super() para extender.
+¿Qué es el late binding?
+
+    Es el enlace tardío (o despacho dinámico) de una llamada a método: la selección del método concreto se resuelve en tiempo de ejecución según el tipo dinámico del objeto receptor.
+    
+    Para qué sirve: habilita polimorfismo real (mismo mensaje, respuestas distintas).
+    
+    En Python: el despacho de métodos es dinámico por defecto. (Nota: “late binding” también puede referir, en otro contexto de Python, a la captura tardía de variables en closures; aquí hablamos del despacho de métodos.)
