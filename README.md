@@ -92,6 +92,9 @@ POO – Preguntas Generales
     
 Encapsulamiento
 
+<img width="561" height="567" alt="image" src="https://github.com/user-attachments/assets/28a5a2e8-bab2-4f78-ba87-a8769429ec1f" />
+
+
 ¿Qué es el encapsulamiento?
 
     Ocultar la implementación interna y exponer una interfaz pública segura. Protege invariantes y reduce el
@@ -123,7 +126,11 @@ Encapsulamiento
     Métodos explícitos get_x/set_x; propiedades con @property y @x.setter (idiomático); o la función
     integrada property().
     
-    Herencia 
+Herencia 
+
+<img width="539" height="462" alt="image" src="https://github.com/user-attachments/assets/8f781949-f52a-49b6-ad4c-c76a5e2cfa40" />
+
+
     
 ¿Cómo funciona la herencia?
 
@@ -149,6 +156,9 @@ Encapsulamiento
     
 Polimorfismo
 
+<img width="530" height="443" alt="image" src="https://github.com/user-attachments/assets/b87e1a18-ab14-4e52-9019-a598b0cf74fb" />
+
+
 ¿Cómo funciona el polimorfismo?
 
     Permite invocar la misma operación sobre objetos de tipos distintos y que cada uno responda según su
@@ -173,3 +183,6 @@ Polimorfismo
     Para qué sirve: habilita polimorfismo real (mismo mensaje, respuestas distintas).
     
     En Python: el despacho de métodos es dinámico por defecto. (Nota: “late binding” también puede referir, en otro contexto de Python, a la captura tardía de variables en closures; aquí hablamos del despacho de métodos.)
+
+<img width="885" height="717" alt="image" src="https://github.com/user-attachments/assets/949864d8-772f-40b7-b6ae-b8ee635ef1f0" />
+
