@@ -202,6 +202,9 @@ Diferencia entre sobreescritura parcial y total (con ejemplos)
     
     Su propósito es forzar a las subclases a implementar ciertos métodos, asegurando que todas las clases derivadas compartan una estructura           mínima.
 
+<img width="437" height="384" alt="image" src="https://github.com/user-attachments/assets/9c3472c3-9cdf-4297-a02f-338182e71436" />
+
+
 Cual es la diferencia entre clase abstracta y clase común?
 
     Clase Abstracta	                                Clase Común
