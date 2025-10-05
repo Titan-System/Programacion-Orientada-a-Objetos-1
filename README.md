@@ -23,18 +23,20 @@ POO – Preguntas Generales
     organizados en clases. Favorece modularidad, reutilización y mantenimiento.
 ¿Qué es una clase?
 
-    Un molde/plantilla que define atributos y métodos. Instanciar la clase crea objetos que comparten esa
-    definición.
+    Un molde/plantilla que define atributos y métodos los cuales al Instanciarlos  crea objetos que comparten esa
+    definición es decir comparten mismos atributos y muismos metodos.
 ¿Qué es un objeto?
 
-    Una instancia concreta de una clase que posee identidad (se distingue de otros objetos), estado (valores actuales de sus atributos) y comportamiento (métodos). Los objetos interactúan enviándose mensajes                   (invocaciones de métodos).
-    
+       un onjeto es la instancia de una clase la cual comparte sus atributos y sus metodos sin embargo el objeto es dinamico mientras que la clase es estatica  
+       
 <img width="1023" height="643" alt="image" src="https://github.com/user-attachments/assets/5eada6d8-1a5d-48c5-89ff-cc924fc7dab5" />
+
+        en la foto de arriba podemos observar como al momento de crear un objeto de determinada clase se crea un llamado al sistema que  direcciona a las celdas de la virtual table de esa clase 
 
 
 ¿Cuáles son las similitudes y diferencias entre composición y agregación? Da ejemplos.
 
-    Similitud: ambas son relaciones parte–todo (asociaciones estructurales).
+    Similitud: ambas son relaciones parte–de (asociaciones estructurales).
     
     Diferencias clave:
     
@@ -79,13 +81,19 @@ POO – Preguntas Generales
     El conjunto de valores actuales de sus atributos; cambia cuando se invocan métodos que los modifican.
 ¿Qué es un diagrama de clases?
 
-    Diagrama UML que muestra clases, atributos, métodos y relaciones (asociación, herencia, composición,
+    Diagrama UML O UNIFIED MODELING LANGUAGE que muestra clases, atributos, métodos y relaciones (asociación, herencia, composición,
     etc.). Es la vista estática del modelo.
 ¿Cuáles son las relaciones entre clases (UML, a alto nivel)?
 
     Asociación (conoce/usa), Dependencia (usa puntualmente), Agregación (tiene un, parte–todo débil),
     Composición (está compuesto por, parte–todo fuerte), Generalización/Herencia (es un/una), Realización
     (implementa una interfaz).
+    <img width="1019" height="455" alt="image" src="https://github.com/user-attachments/assets/c0207bd4-b2a7-4815-8f78-77612ac25728" />
+    <img width="1024" height="485" alt="image" src="https://github.com/user-attachments/assets/556cf4b3-bd88-46e2-b61a-da9da8d66857" />
+    <img width="1016" height="440" alt="image" src="https://github.com/user-attachments/assets/7834446e-bb00-4d3f-82e3-cb8b783f6eea" />
+    <img width="1023" height="757" alt="image" src="https://github.com/user-attachments/assets/9354d74a-b022-4ae6-b654-4daf1241b2c2" />
+
+    
 ¿Cómo representarías agregación y composición en un diagrama de clases?
 
     Agregación: rombo hueco en el lado del 'todo' (las partes pueden vivir sin él). Composición: rombo
@@ -124,11 +132,15 @@ Encapsulamiento
 
     La buena práctica es no acceder directamente. Usar métodos públicos o propiedades que controlen la
     lectura/escritura. Aunque se puede usar _Clase__nombre, no es recomendable.
+
+    <img width="893" height="821" alt="image" src="https://github.com/user-attachments/assets/b59c264d-e424-470d-92ea-531851631743" />
+
 ¿Qué maneras hay de hacer getter y setter en Python?
 
     Métodos explícitos get_x/set_x; propiedades con @property y @x.setter (idiomático); o la función
     integrada property().
-    
+    <img width="624" height="319" alt="image" src="https://github.com/user-attachments/assets/08d3b43c-de7a-4d87-aabb-61ec70cc6c49" />
+
 Herencia 
 
 <img width="539" height="462" alt="image" src="https://github.com/user-attachments/assets/8f781949-f52a-49b6-ad4c-c76a5e2cfa40" />
