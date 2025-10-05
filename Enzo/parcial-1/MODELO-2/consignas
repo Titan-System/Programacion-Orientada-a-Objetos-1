@@ -1,0 +1,31 @@
+Parte 2 - Práctica
+Hacer el programa correspondiente al siguiente enunciado.
+
+Sistema de un Hospital
+Un Hospital quiere un sistema para manejar los datos que se solicitan.
+
+1. Encapsulamiento:
+- Crear una clase ‘EmpleadoHospital’ con atributos privados: nombre, apellido, edad, especialidad.
+  En especialidad solo hay tres: cirujano de abdomen, cirujano de corazón y pediatra.
+
+2. Herencia:
+- Crear subclases ‘MédicoPediatra’ (incluye cantidadPacientes),
+  ‘MédicoCirujanoAbdomen’ (incluye cantidadCirugías), y
+  ‘MédicoCirujanoCorazón’ (incluye cantidadBypass).
+
+3. Interface, Sobreescritura y Polimorfismo:
+- Crear Interface Curación con el método curar().
+- Usar método puente para la implementación de Polimorfismo.
+- En main crear 3 Objetos para aplicarles el Polimorfismo en el método puente.
+- Invocando al método puente mostrar qué cura cada Objeto.
+
+4. Polimorfismo y uso de Lista de Objetos:
+- Implementar la class Hospital con un método que, dada una lista de empleados,
+  imprima los datos de cada empleado y diga qué enfermedad cura, y al final
+  informe la cantidad total de pacientes de Pediatría y la cantidad de cirujanos de abdomen.
+
+5. Diagrama de Clases:
+- Hacer el Diagrama de Clases usando UML.
+
+Nota: Las enfermedades son: Enfermedad de Abdomen, Enfermedad de Corazón,
+Enfermedad Infantil. (Para la Sobreescritura)
