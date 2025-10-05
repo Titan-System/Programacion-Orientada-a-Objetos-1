@@ -88,10 +88,10 @@ POO – Preguntas Generales
     Asociación (conoce/usa), Dependencia (usa puntualmente), Agregación (tiene un, parte–todo débil),
     Composición (está compuesto por, parte–todo fuerte), Generalización/Herencia (es un/una), Realización
     (implementa una interfaz).
-    <img width="1019" height="455" alt="image" src="https://github.com/user-attachments/assets/c0207bd4-b2a7-4815-8f78-77612ac25728" />
-    <img width="1024" height="485" alt="image" src="https://github.com/user-attachments/assets/556cf4b3-bd88-46e2-b61a-da9da8d66857" />
-    <img width="1016" height="440" alt="image" src="https://github.com/user-attachments/assets/7834446e-bb00-4d3f-82e3-cb8b783f6eea" />
-    <img width="1023" height="757" alt="image" src="https://github.com/user-attachments/assets/9354d74a-b022-4ae6-b654-4daf1241b2c2" />
+<img width="1019" height="455" alt="image" src="https://github.com/user-attachments/assets/c0207bd4-b2a7-4815-8f78-77612ac25728" />
+<img width="1024" height="485" alt="image" src="https://github.com/user-attachments/assets/556cf4b3-bd88-46e2-b61a-da9da8d66857" />
+<img width="1016" height="440" alt="image" src="https://github.com/user-attachments/assets/7834446e-bb00-4d3f-82e3-cb8b783f6eea" />
+<img width="1023" height="757" alt="image" src="https://github.com/user-attachments/assets/9354d74a-b022-4ae6-b654-4daf1241b2c2" />
 
     
 ¿Cómo representarías agregación y composición en un diagrama de clases?
@@ -133,13 +133,13 @@ Encapsulamiento
     La buena práctica es no acceder directamente. Usar métodos públicos o propiedades que controlen la
     lectura/escritura. Aunque se puede usar _Clase__nombre, no es recomendable.
 
-    <img width="893" height="821" alt="image" src="https://github.com/user-attachments/assets/b59c264d-e424-470d-92ea-531851631743" />
+<img width="893" height="821" alt="image" src="https://github.com/user-attachments/assets/b59c264d-e424-470d-92ea-531851631743" />
 
 ¿Qué maneras hay de hacer getter y setter en Python?
 
     Métodos explícitos get_x/set_x; propiedades con @property y @x.setter (idiomático); o la función
     integrada property().
-    <img width="624" height="319" alt="image" src="https://github.com/user-attachments/assets/08d3b43c-de7a-4d87-aabb-61ec70cc6c49" />
+<img width="624" height="319" alt="image" src="https://github.com/user-attachments/assets/08d3b43c-de7a-4d87-aabb-61ec70cc6c49" />
 
 Herencia 
 
@@ -177,7 +177,7 @@ Polimorfismo
 ¿Cómo funciona el polimorfismo?
 
     Permite invocar la misma operación sobre objetos de tipos distintos y que cada uno responda según su
-    implementación. En Python es dinámico (duck typing).
+    implementación. En Python es dinámico.
 ¿Para qué se usa el polimorfismo?
 
     Para desacoplar el código del tipo concreto, habilitar extensibilidad y simplificar diseños (colecciones
@@ -210,9 +210,9 @@ Diferencia entre sobreescritura parcial y total (con ejemplos)
 
 ¿Qué es una clase abstracta?
 
-    Una clase abstracta es una clase especial que sirve como modelo o plantilla base para otras clases. Se define para establecer una interfaz         común, pero no está pensada para ser utilizada directamente (es decir, no se puede instanciar por sí sola).
+    Una clase abstracta es una clase especial que sirve como modelo o plantilla base para otras clases. Se define para establecer una interfaz  común, pero no está pensada para ser utilizada directamente (es decir, no se puede instanciar por sí sola).
     
-    Su propósito es forzar a las subclases a implementar ciertos métodos, asegurando que todas las clases derivadas compartan una estructura           mínima.
+    Su propósito es forzar a las subclases a implementar ciertos métodos, asegurando que todas las clases derivadas compartan una estructura  mínima.
 
 <img width="437" height="384" alt="image" src="https://github.com/user-attachments/assets/9c3472c3-9cdf-4297-a02f-338182e71436" />
 
@@ -227,7 +227,7 @@ Cual es la diferencia entre clase abstracta y clase común?
     
 ¿Qué es el late binding?    
 
-    Es el enlace tardío (o despacho dinámico) de una llamada a método: la selección del método concreto se resuelve en tiempo de ejecución según       el tipo dinámico del objeto receptor.
+    Es el enlace tardío (o despacho dinámico) de una llamada a método: la selección del método concreto se resuelve en tiempo de ejecución según  el tipo dinámico del objeto receptor.
     
     Para qué sirve: habilita polimorfismo real (mismo mensaje, respuestas distintas).
     
