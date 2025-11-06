@@ -235,8 +235,7 @@ Cual es la diferencia entre clase abstracta y clase común?
 
 <img width="885" height="717" alt="image" src="https://github.com/user-attachments/assets/949864d8-772f-40b7-b6ae-b8ee635ef1f0" />
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SEGUNDO   PARCIAL ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------SEGUNDO   PARCIAL ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Colecciones
 
@@ -254,11 +253,11 @@ Colecciones
     
     dict: pares clave-valor.
 
-    <img width="813" height="127" alt="image" src="https://github.com/user-attachments/assets/ede24d5b-5ff8-4467-9204-63ad87e24d38" />
+ <img width="813" height="127" alt="image" src="https://github.com/user-attachments/assets/ede24d5b-5ff8-4467-9204-63ad87e24d38" />
     
 ¿Cómo se recorren colecciones en Python?
                
-    <img width="318" height="89" alt="image" src="https://github.com/user-attachments/assets/5d548976-c09a-427c-a70f-9787d8af63a8" />
+<img width="318" height="89" alt="image" src="https://github.com/user-attachments/assets/5d548976-c09a-427c-a70f-9787d8af63a8" />
 
 
 ¿Cómo se utilizan las colecciones dentro de una clase (POO)?
@@ -266,7 +265,7 @@ Colecciones
     Las colecciones permiten modelar relaciones entre objetos.
     Por ejemplo, una clase Curso puede contener varios Alumno.
 
-    <img width="654" height="547" alt="image" src="https://github.com/user-attachments/assets/6a1d585a-3e3f-4015-b07e-42bef7d8c012" />
+<img width="654" height="547" alt="image" src="https://github.com/user-attachments/assets/6a1d585a-3e3f-4015-b07e-42bef7d8c012" />
     
 Archivos
 
@@ -278,9 +277,9 @@ Archivos
     Modos comunes:
     
     'r': lectura    'w': escritura (sobrescribe)   'a': agregar   'b': modo binario
-    <img width="514" height="100" alt="image" src="https://github.com/user-attachments/assets/c31eafdb-587f-4c05-81a6-505e9fc83431" />
+<img width="514" height="100" alt="image" src="https://github.com/user-attachments/assets/c31eafdb-587f-4c05-81a6-505e9fc83431" />
 
-    <img width="506" height="131" alt="image" src="https://github.com/user-attachments/assets/373bc97c-1235-4eb9-9aed-24ffc6486d97" />
+<img width="506" height="131" alt="image" src="https://github.com/user-attachments/assets/373bc97c-1235-4eb9-9aed-24ffc6486d97" />
     
 Excepciones
 
@@ -292,13 +291,13 @@ Excepciones
 ¿Cómo se manejan las excepciones en Python?
 
     Con los bloques try, except, else y finally.
-    <img width="609" height="362" alt="image" src="https://github.com/user-attachments/assets/6a34ca82-c5fb-4e9c-8b01-e935d398ebd1" />
+<img width="609" height="362" alt="image" src="https://github.com/user-attachments/assets/6a34ca82-c5fb-4e9c-8b01-e935d398ebd1" />
     
 ¿Por qué se considera parte del diseño OO?
 
     Porque las excepciones permiten separar la lógica normal del tratamiento de errores, promoviendo robustez y encapsulamiento.
     Cada clase puede definir sus propias excepciones personalizadas.
-    <img width="794" height="423" alt="image" src="https://github.com/user-attachments/assets/9a6d5cfe-bd4d-47ef-a6ab-0f684ba8c3ec" />
+<img width="794" height="423" alt="image" src="https://github.com/user-attachments/assets/9a6d5cfe-bd4d-47ef-a6ab-0f684ba8c3ec" />
 
 Genericidad
 
@@ -307,7 +306,7 @@ Genericidad
     La genericidad (o programación genérica) permite definir clases y funciones que trabajan con distintos tipos de datos sin perder seguridad de tipo.
      Python la implementa con tipos genéricos mediante el módulo typing.
 
-     <img width="467" height="504" alt="image" src="https://github.com/user-attachments/assets/f6c7f02d-2a11-44ae-b806-ab3aa03cf36d" />
+ <img width="467" height="504" alt="image" src="https://github.com/user-attachments/assets/f6c7f02d-2a11-44ae-b806-ab3aa03cf36d" />
 
 ¿Por qué es útil la genericidad en la POO?
     
@@ -322,7 +321,7 @@ Decoradores
 
     Un decorador es una función que recibe otra función o método y devuelve una versión modificada, añadiendo funcionalidad sin alterar su estructura interna.
 
-    <img width="552" height="460" alt="image" src="https://github.com/user-attachments/assets/29115b8a-452d-4f74-a002-118e2d3328a9" />
+<img width="552" height="460" alt="image" src="https://github.com/user-attachments/assets/29115b8a-452d-4f74-a002-118e2d3328a9" />
 ¿Qué ventajas ofrecen los decoradores en POO?
 
     Permiten aplicar lógica transversal (logging, validación, seguridad) sin duplicar código.
@@ -330,7 +329,7 @@ Decoradores
 
 ¿Cómo se aplican decoradores a métodos dentro de clases?
 
-    <img width="569" height="504" alt="image" src="https://github.com/user-attachments/assets/7e1b94bf-278e-4509-9390-bef5d3fe534a" />
+<img width="569" height="504" alt="image" src="https://github.com/user-attachments/assets/7e1b94bf-278e-4509-9390-bef5d3fe534a" />
     Decoradores integrados útiles:
     
     @staticmethod: define un método sin referencia a la instancia.
